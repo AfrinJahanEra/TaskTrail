@@ -1,0 +1,4 @@
+install first--- npm install react-icons
+restart server --- rm -rf node_modules
+npm install
+npm run dev
