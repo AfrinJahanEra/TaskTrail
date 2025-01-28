@@ -1,8 +1,9 @@
+/* Tailwind CSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
     --tw-bg-opacity: 1;
-    background-color: rgb(24, 20, 19); /* A dark, warm color to complement the golden theme */
+    background-color: #D2B48C; /* Tea liquid color */
 }

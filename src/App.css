@@ -35,8 +35,56 @@
 
 .card {
   padding: 2em;
+  background-color: #f9f9f9;
+  border-radius: 0.5em;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 1em auto;
+  max-width: 600px;
+  text-align: left;
 }
 
 .read-the-docs {
   color: #888;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  #root {
+    padding: 1rem;
+  }
+
+  .logo {
+    height: 4em;
+    padding: 1em;
+  }
+
+  .card {
+    padding: 1.5em;
+    margin: 0.5em auto;
+  }
+
+  .read-the-docs {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #root {
+    padding: 1rem 0.5rem;
+  }
+
+  .logo {
+    height: 3.5em;
+    padding: 0.5em;
+  }
+
+  .card {
+    padding: 1em;
+    margin: 0.5em auto;
+  }
+
+  .read-the-docs {
+    font-size: 0.8rem;
+    padding: 0 1em;
+  }
 }
