@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
-body{
+body {
     --tw-bg-opacity: 1;
-    background-color: rgb(226, 223, 239)
+    background-color: rgb(24, 20, 19); /* A dark, warm color to complement the golden theme */
 }
