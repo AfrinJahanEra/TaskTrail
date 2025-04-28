@@ -40,8 +40,7 @@ The **Ultimate Todo App** is a modern, responsive task manager designed to strea
 
 ---
 
-## 📸 **Screenshots**  
-*(Replace placeholders with your actual screenshots!)*  
+## 📸 **Screenshots**   
 
 ### **Light Mode**  
 | **Home Page** | **Completed Tasks** |  
@@ -67,29 +66,18 @@ The **Ultimate Todo App** is a modern, responsive task manager designed to strea
    ```
 3. **Run the app**:  
    ```bash
-   npm start
-   ```
-   Open [http://localhost:3000](http://localhost:3000) in your browser.  
+   npm run dev
+   ``` 
 
 ---
 
 ## 📜 **License**  
-MIT License. Free to use and modify.  
-
----
-
-## 🤝 **Contributing**  
-1. Fork the project.  
-2. Create a branch (`git checkout -b feature/AmazingFeature`).  
-3. Commit changes (`git commit -m 'Add feature'`).  
-4. Push (`git push origin feature/AmazingFeature`).  
-5. Open a Pull Request.  
+MIT License.
 
 ---
 
 ## ✨ **Live Demo**  
-👉 [https://task-trail-six.vercel.app/](#) *(Add your deployment link, e.g., Vercel/Netlify)*  
-
+👉 [Click Here](https://task-trail-six.vercel.app/) 
 ---
 
 Made with ❤️ by **[Afrin Jahan Era](https://github.com/AfrinJahanEra)**  

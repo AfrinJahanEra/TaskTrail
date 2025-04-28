@@ -238,7 +238,7 @@ function App() {
                                 : `${darkMode ? 'bg-gray-600 text-gray-300' : 'bg-gray-200 text-gray-700'} hover:opacity-90`
                             }`}
                           >
-                            {level === 1 ? 'High' : level === 2 ? 'Medium' : 'Low'}
+                            {level === 3 ? 'High' : level === 2 ? 'Medium' : 'Low'}
                           </button>
                         ))}
                       </div>
