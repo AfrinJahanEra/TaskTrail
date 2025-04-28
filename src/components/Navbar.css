@@ -1,14 +1,39 @@
+/* Add these to your index.css or global CSS file */
 .metallic-button {
-    background-size: 200% 200%;
-    background-position: 100% 50%;
-    transition: background-position 0.5s ease, transform 0.2s ease;
+  background-size: 200% 200%;
+  background-position: 100% 50%;
+  transition: background-position 0.5s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.metallic-button:hover {
+  background-position: 0% 50%;
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.metallic-button:active {
+  transform: scale(0.95);
+}
+
+/* Animation for the mobile menu */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
   }
-  
-  .metallic-button:hover {
-    background-position: 0% 50%;
-    transform: scale(1.05);
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  .metallic-button:active {
-    transform: scale(0.95);
+}
+
+.md\:hidden {
+  animation: slideDown 0.3s ease-out forwards;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .logo {
+    padding: 0.5em 0;
   }
+}
