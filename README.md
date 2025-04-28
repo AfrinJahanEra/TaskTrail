@@ -54,7 +54,7 @@ The **Ultimate Todo App** is a modern, responsive task manager designed to strea
 *Eyes-friendly dark theme with the same powerful features.*  
 
 ### **Mobile View**  
-![Mobile View](src/assets/Screenshot-2025-04-28-140624.png)  
+![Mobile View](src/assets/Screenshot%202025-04-28%20140624.png)  
 *Fully responsive design adapts to any screen size.*  
 
 ---
